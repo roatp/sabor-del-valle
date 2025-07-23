@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor del Valle - Restaurante</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.3em;
+    }
+    nav {
+      background-color: #8B0000;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 8px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .cta {
+      text-align: center;
+      background-color: #F4F4F4;
+      padding: 30px 20px;
+    }
+    .cta a {
+      background-color: #28a745;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sabor del Valle</h1>
+    <p>Comida casera con el sazón de nuestra tierra</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#horarios">Horarios</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>En Sabor del Valle mezclamos tradición y pasión por la cocina. Nuestro restaurante nace del amor por los ingredientes locales y las recetas de antaño. Ven a disfrutar una experiencia única en un ambiente cálido y familiar.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menú Destacado</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="empanadas.png" alt="Empanadas">
+        <h3>Empanadas de Queso</h3>
+        <p>Recién fritas, crujientes y sabrosas</p>
+      </div>
+      <div class="menu-item">
+        <img src="milanesa.png" alt="Milanesa con ensalada">
+        <h3>Milanesa con Ensalada</h3>
+        <p>Empanizada al estilo casero, con ensalada fresca</p>
+      </div>
+      <div class="menu-item">
+        <img src="flan.png" alt="Flan">
+        <h3>Flan Casero</h3>
+        <p>Con caramelo suave y textura cremosa</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="horarios">
+    <h2>Horarios y Ubicación</h2>
+    <p>📍 Calle Ficticia 123, Ciudad del Valle</p>
+    <p>🕒 Lunes a Domingo: 12:00 a 22:00 hrs</p>
+  </section>
+
+  <div class="cta">
+    <p>¡Haz tu reserva o consulta por WhatsApp!</p>
+    <a href="https://wa.me/56912345678" target="_blank">Reservar ahora</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Sabor del Valle. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
